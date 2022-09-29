@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-    <header>
+    <head>
         <title> Project</title>
         <link rel="stylesheet" href="css-js/webStyle.css">
         <script src="css-js/webScript.js"></script> 
-    </header>
+    </head>
     <body onLoad="txtAppear()">
         <div id="display-container">
             <div id="sidebar-grid">
