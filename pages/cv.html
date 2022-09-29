@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link rel="stylesheet" href="../css-js/webStyle.css">
+        <script src="../css-js/webScript.js"></script>
+    </header>
+    <body onLoad="txtAppear()">
+        <div id="display-container">
+            <div id="sidebar-grid">
+                <div><button id="sidebar-button" onclick="sideEnlarge()">Open/ Close Sidebar</button></div>
+                <div><img id="pfp" src="../pictures/KLC-photo.jpg"></div>
+            </div>
+            <div id="top-bar">
+                    <p class="title-text">Ka Lok Chau</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <div id="sidebar" style="height:auto">
+                <div class="sidebar-items"><a href="../web.html"><p id="home-link"></p></a></div>
+                <div class="sidebar-items"><a target="_blank" href="projects.html"><p id="project"></p></a></div>
+                <div class="sidebar-items"><a href="cv.html"><p id="cv"></p></a></div>
+                <div class="sidebar-items"><a href="contact.html"><p id="contact"></p></a></div>
+            </div>
+            <div class="grid-50-50-horizontal">
+                <div class="grid-50-50-vertical">
+                    <div>General CV: <a href="../pictures/CV-general.pdf" target="_blank">Open Me In New Tab!</a> </div>
+                    <div>
+                        <iframe class="pdf-fill" src="../pictures/CV-general.pdf"></iframe>
+                    </div>
+                </div>
+                <div class="grid-50-50-vertical">
+                    <div>Computer Science CV: <a href="../pictures/CV-CS.pdf" target="_blank">Open Me In New Tab!</a> </div>
+                    <div>
+                        <iframe class="pdf-fill" src="../pictures/CV-CS.pdf"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

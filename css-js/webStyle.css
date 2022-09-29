@@ -1,0 +1,189 @@
+/* ============Universal style=========== */
+a {
+    color: white;
+  }
+  a:visited {
+    color: white;
+  }
+body{
+    background-color: rgb(69,69,69);
+}
+/* ============ITEM CLASS=========== */
+
+#display-container{
+    display:grid;
+    grid-template-columns: 12em 1fr;
+    height: 6em;
+}
+#sidebar-grid{
+    display: grid;
+    grid-template-columns: 4em 6em;
+    
+}
+#top-bar{
+    display:grid;
+    grid-template-columns: auto;
+}
+#sidebar-button{
+    padding-right: 0em;
+    padding-left: 0em;
+    width:4em;
+    height:6em;
+    margin-bottom: 1em;
+    background-color: rgb(101,101,101);
+    color: white;
+
+}
+
+#sidebar{
+    display: grid;
+    grid-template-rows: auto;
+    width:0em;
+    height: auto;
+    background-color: rgba(96,96,96,0.5);
+    transition: 1s;
+}
+.sidebar-items{
+    border-style: solid;
+    border-color: black;
+}
+.content{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    height: auto;
+}
+
+.content-grid{
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    height:30em;
+    column-gap: 1em;
+    row-gap: 1em;
+    padding-left: 1em;
+    
+}
+
+.contentBoxes{
+    display: grid;
+    grid-template-rows: 6em 4em;
+    height:10em;
+    width:10em;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    background-color: rgb(222,222,222);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.contentBoxes:hover{
+    transform: scale(1.3,1.3);
+    transition: 0.5s;
+}
+.contentBoxPictures{
+    width: 95%;
+}
+
+.grid-50-50-horizontal{
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+    
+}
+.grid-50-50-vertical{
+    display: grid;
+    grid-template-rows: 3em auto;
+    color: white;
+    gap: 5%;
+    
+}
+.pdf-fill{
+    width: 25em;
+    height: 30em;
+}
+.pdf-fill:hover{
+    transform: scale(1,1);
+    transition: 1s;
+}
+
+.project-grid{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border-color: rgb(171,171,171);
+    border-style: dashed;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.projectPictures{
+    width: 60%;
+}
+/* ============TEXT CLASS=========== */
+
+.title-text{
+    position: relative;
+    top:-1em;
+    vertical-align: top;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: white;
+    margin-bottom: 0em;
+}
+#project{
+    width: 0em;
+    opacity: 0%;
+    transition: 2s;
+}
+#home-link{
+    width: 0em;
+    opacity: 0%;
+    transition: 2s;
+}
+#cv{
+    width: 0em;
+    opacity: 0%;
+    transition: 2s;
+}
+#contact{
+    width: 0em;
+    opacity: 0%;
+    transition: 2s;
+}
+#pfp{
+    width: 6em;
+    height: auto;
+}
+
+.contact-display-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+.txt-project{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+.paragraphs{
+    font-family: 'Times New Roman', Times, serif;
+}
+.border-box{
+    border-style: dashed;
+    border-color: rgb(171,171,171);
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.overwrite-a{
+    color: black;
+    text-decoration: none;
+}
